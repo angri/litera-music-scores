@@ -393,6 +393,7 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <lid>0</lid>
         <Text>
           <style>Title</style>
           <text>Enjoy the Silence</text>
@@ -2029,6 +2030,11 @@ arr. angri</text>
         <endSpanner id="21"/>
         <Volta id="22">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="-0.345099" y="-1.28618"/>
+            </Segment>
           <beginText>
             <text>2.</text>
             </beginText>
@@ -2187,6 +2193,7 @@ arr. angri</text>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
+            <lid>43</lid>
             </Articulation>
           <Note>
             <pitch>75</pitch>
@@ -2255,6 +2262,7 @@ arr. angri</text>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
+            <lid>64</lid>
             </Articulation>
           <Note>
             <pitch>75</pitch>
@@ -2471,6 +2479,7 @@ arr. angri</text>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
+            <lid>130</lid>
             </Articulation>
           <Note>
             <pitch>75</pitch>
@@ -2613,6 +2622,7 @@ arr. angri</text>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
+            <lid>173</lid>
             </Articulation>
           <Note>
             <pitch>75</pitch>
@@ -2755,6 +2765,7 @@ arr. angri</text>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
+            <lid>216</lid>
             </Articulation>
           <Note>
             <pitch>75</pitch>
@@ -2823,6 +2834,7 @@ arr. angri</text>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
+            <lid>237</lid>
             </Articulation>
           <Note>
             <pitch>75</pitch>
@@ -4767,24 +4779,12 @@ arr. angri</text>
       <Measure number="51">
         <Ottava id="25">
           <subtype>8va</subtype>
-          <Segment>
-            <subtype>1</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="43.693" y="-3.8005"/>
-            </Segment>
-          <Segment>
-            <subtype>2</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="16.3116" y="-4.4409"/>
-            </Segment>
-          <Segment>
-            <subtype>2</subtype>
-            <off2 x="0" y="0"/>
-            </Segment>
-          <Segment>
-            <subtype>3</subtype>
-            <off2 x="0" y="0"/>
-            </Segment>
+          <beginText>
+            <text><sym>ottava</sym></text>
+            </beginText>
+          <continueText>
+            <text><sym>ottava</sym></text>
+            </continueText>
           </Ottava>
         <Chord>
           <durationType>eighth</durationType>
@@ -5388,6 +5388,7 @@ arr. angri</text>
           <subtype>start-repeat</subtype>
           <span>2</span>
           </BarLine>
+        <endSpanner id="25"/>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -5462,7 +5463,6 @@ arr. angri</text>
           </Chord>
         </Measure>
       <Measure number="60">
-        <endSpanner id="25"/>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
