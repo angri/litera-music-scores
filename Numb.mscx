@@ -265,7 +265,6 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <lid>1</lid>
         <Text>
           <style>Title</style>
           <text>Numb</text>
@@ -3069,7 +3068,7 @@ arr. angri</text>
         </Measure>
       <Measure number="47">
         <RehearsalMark>
-          <pos x="3.89128" y="-3.38738"/>
+          <pos x="2.35925" y="-3.38738"/>
           <text>Bridge</text>
           </RehearsalMark>
         <Chord>
@@ -5724,124 +5723,16 @@ arr. angri</text>
           </Chord>
         </Measure>
       <Measure number="19">
-        <Dynamic>
-          <subtype>mp</subtype>
-          <velocity>64</velocity>
-          </Dynamic>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
         </Measure>
       <Measure number="20">
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
         </Measure>
       <Measure number="21">
         <Dynamic>
@@ -8916,28 +8807,24 @@ arr. angri</text>
         </Measure>
       <Measure number="1">
         <Rest>
-          <lid>9</lid>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
         </Measure>
       <Measure number="2">
         <Rest>
-          <lid>10</lid>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
         </Measure>
       <Measure number="3">
         <Rest>
-          <lid>11</lid>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
         </Measure>
       <Measure number="4">
         <Rest>
-          <lid>12</lid>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
@@ -8955,7 +8842,6 @@ arr. angri</text>
           <durationType>eighth</durationType>
           <Note>
             <Tie id="141">
-              <lid>17</lid>
               </Tie>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -8973,7 +8859,6 @@ arr. angri</text>
           <durationType>quarter</durationType>
           <Note>
             <Tie id="142">
-              <lid>22</lid>
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -9006,7 +8891,6 @@ arr. angri</text>
           <durationType>eighth</durationType>
           <Note>
             <Tie id="143">
-              <lid>30</lid>
               </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -9024,7 +8908,6 @@ arr. angri</text>
           <durationType>quarter</durationType>
           <Note>
             <Tie id="144">
-              <lid>35</lid>
               </Tie>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -9548,43 +9431,162 @@ arr. angri</text>
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <Rest>
+        <Chord>
           <durationType>eighth</durationType>
-          </Rest>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
+          <Note>
+            <Tie id="145">
+              </Tie>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <endSpanner id="145"/>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         </Measure>
       <Measure number="19">
+        <StaffText>
+          <channelSwitch voice="0" name="pizzicato"/>
+          <pos x="0.145522" y="-3.70896"/>
+          <text>pizz</text>
+          </StaffText>
+        <Dynamic>
+          <subtype>mp</subtype>
+          <velocity>64</velocity>
+          </Dynamic>
         <Chord>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
-        <Rest>
+        <Chord>
           <durationType>eighth</durationType>
-          </Rest>
-        <Rest>
-          <durationType>half</durationType>
-          </Rest>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
         </Measure>
       <Measure number="20">
-        <Rest>
-          <durationType>measure</durationType>
-          <duration z="4" n="4"/>
-          </Rest>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
         </Measure>
       <Measure number="21">
+        <StaffText>
+          <channelSwitch voice="0" name="normal"/>
+          <pos x="-0.873131" y="4.44027"/>
+          <text>arco</text>
+          </StaffText>
+        <Dynamic>
+          <subtype>mf</subtype>
+          <velocity>80</velocity>
+          </Dynamic>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -9787,8 +9789,7 @@ arr. angri</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="145">
-              <lid>176</lid>
+            <Tie id="146">
               </Tie>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -9797,7 +9798,7 @@ arr. angri</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="145"/>
+            <endSpanner id="146"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -9822,8 +9823,7 @@ arr. angri</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="146">
-              <lid>185</lid>
+            <Tie id="147">
               </Tie>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -9832,7 +9832,7 @@ arr. angri</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="146"/>
+            <endSpanner id="147"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -10121,8 +10121,7 @@ arr. angri</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="147">
-              <lid>261</lid>
+            <Tie id="148">
               </Tie>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -10131,7 +10130,7 @@ arr. angri</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="147"/>
+            <endSpanner id="148"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -10154,8 +10153,7 @@ arr. angri</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="148">
-              <lid>270</lid>
+            <Tie id="149">
               </Tie>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -10164,7 +10162,7 @@ arr. angri</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="148"/>
+            <endSpanner id="149"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -10187,8 +10185,7 @@ arr. angri</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="149">
-              <lid>279</lid>
+            <Tie id="150">
               </Tie>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -10197,7 +10194,7 @@ arr. angri</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="149"/>
+            <endSpanner id="150"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -10220,8 +10217,7 @@ arr. angri</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="150">
-              <lid>288</lid>
+            <Tie id="151">
               </Tie>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -10230,7 +10226,7 @@ arr. angri</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="150"/>
+            <endSpanner id="151"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -10253,8 +10249,7 @@ arr. angri</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="151">
-              <lid>297</lid>
+            <Tie id="152">
               </Tie>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -10263,7 +10258,7 @@ arr. angri</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="151"/>
+            <endSpanner id="152"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -10371,8 +10366,7 @@ arr. angri</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="152">
-              <lid>330</lid>
+            <Tie id="153">
               </Tie>
             <pitch>54</pitch>
             <tpc>20</tpc>
@@ -10384,7 +10378,7 @@ arr. angri</text>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="152"/>
+            <endSpanner id="153"/>
             <pitch>54</pitch>
             <tpc>20</tpc>
             </Note>
@@ -10482,35 +10476,30 @@ arr. angri</text>
         </Measure>
       <Measure number="60">
         <Rest>
-          <lid>355</lid>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
         </Measure>
       <Measure number="61">
         <Rest>
-          <lid>356</lid>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
         </Measure>
       <Measure number="62">
         <Rest>
-          <lid>357</lid>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
         </Measure>
       <Measure number="63">
         <Rest>
-          <lid>358</lid>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
-          <lid>359</lid>
           </BarLine>
         </Measure>
       </Staff>
